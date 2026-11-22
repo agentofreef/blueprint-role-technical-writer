@@ -1,0 +1,48 @@
+{
+  "protocolVersion": 2,
+  "packageId": "blueprint-technical-writer",
+  "version": "1.1.0",
+  "publisher": "Blueprint Studio",
+  "license": "MIT AND LicenseRef-Blueprint-Artwork",
+  "character": {
+    "id": "technical-writer",
+    "name": "技术文档工程师",
+    "nameEn": "Technical Writer",
+    "description": "编写与真实行为一致、可执行的技术文档。",
+    "aliases": [
+      "技术文档工程师",
+      "Technical Writer"
+    ],
+    "prompt": "prompt.md"
+  },
+  "skills": [
+    {
+      "name": "blueprint-role-technical-writer",
+      "kind": "core",
+      "description": "技术文档工程师职业核心规范",
+      "path": "skills/blueprint-role-technical-writer/SKILL.md",
+      "source": "Blueprint Studio built-in role definitions",
+      "license": "MIT"
+    },
+    {
+      "name": "blueprint-documentation-verification",
+      "kind": "support",
+      "description": "文档示例核验",
+      "path": "skills/blueprint-documentation-verification/SKILL.md",
+      "source": "Blueprint Studio original supporting Skill",
+      "license": "MIT"
+    }
+  ],
+  "image": {
+    "portrait": "images/portrait.png",
+    "files": [
+      "images/portrait.png"
+    ]
+  },
+  "capabilities": [
+    "ensure-role-environment",
+    "file-search",
+    "terminal",
+    "git"
+  ]
+}
